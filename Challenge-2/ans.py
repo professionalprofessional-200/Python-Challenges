@@ -1,7 +1,12 @@
-a=10;
-b=5;
-c=a+b;
-d=b-c;
-e=a*b;
-f=a/b;
-print(c,d,e,f);
+a=float(input("Enter your first number:"))
+b=float(input("Enter your second number:"))
+
+add=a+b
+sub=b-a
+mul=a*b
+div=a/b
+
+print(f"addition:{add}")
+print(f"addition:{sub}")
+print(f"addition:{mul}")
+print(f"addition:{div}")
